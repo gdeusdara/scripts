@@ -4,11 +4,11 @@ sudo apt update
 
 # vim
 
-sudo apt install vim
+sudo apt install vim -y
 
 # terminator
 
-sudo apt install terminator
+sudo apt install terminator -y
 
 # google chrome
 
@@ -21,7 +21,7 @@ sudo apt-get update ; sudo apt-get install google-chrome-stable -y
 
 # curl
 
-sudo apt install curl
+sudo apt install curl -y
 
 # nodejs
 
@@ -41,7 +41,7 @@ sudo add-apt-repository ppa:atareao/telegram
 
 sudo apt update
 
-sudo apt install telegram
+sudo apt install telegram -y
 
 # atom
 
@@ -59,11 +59,11 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 
 sudo apt update
 
-sudo apt install spotify-client
+sudo apt install spotify-client -y
 
 # java
 
-sudo apt install default-jdk
+sudo apt install default-jdk -y
 
 # docker
 
@@ -78,7 +78,7 @@ sudo add-apt-repository \
 
 sudo apt update
 
-sudo apt-get install docker-ce
+sudo apt-get install docker-ce -y
 
 # docker-compose
 
@@ -93,12 +93,12 @@ sudo add-apt-repository ppa:moka/daily
 
 sudo apt update
 
-sudo apt-get install arc-theme
-sudo apt-get install moka-icon-theme
+sudo apt-get install arc-theme -y
+sudo apt-get install moka-icon-theme -y
 
 # unity tweak tool
 
-sudo apt-get install unity-tweak-tool
+sudo apt-get install unity-tweak-tool -y
 
 # configure git
 
